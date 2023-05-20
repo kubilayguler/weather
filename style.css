@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@1,600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+
+body{
+    background-image: url(bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding-top: 50%;
+    border-bottom: 3px solid;
+    border-color: rgb(255, 251, 0);
+    font-family: 'Playfair Display', serif;
+}
+
+#searchbar{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 0px;
+    height: 50px;
+    width: 100%;
+}
+
+#searchbar::placeholder{
+    color: rgba(255, 255, 255, 0.554);
+}
+
+h2{
+    color: rgb(255, 238, 0);
+    font-size: 60px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+h3{
+    color: rgb(255, 196, 0);
+    font-size: 60px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+h4{
+    color: rgb(255, 128, 0);
+    font-size: 60px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+h5{
+    color: aqua;
+}
